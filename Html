@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #title {
+            margin-bottom: 20px;
+        }
+        input {
+            margin: 5px;
+            padding: 10px;
+            width: 200px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="title">
+        <h1>Enter Zip Codes</h1>
+        <input type="number" id="zip1" placeholder="Zip code 1" required>
+        <input type="number" id="zip2" placeholder="Zip code 2" required>
+        <button id="submit-button">Submit</button>
+    </div>
+    <p id="result"></p>
+
+    <script src="script.mjs"></script>
+</body>
+</html>
